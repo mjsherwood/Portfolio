@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio Page</title>
   <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -11,38 +12,42 @@
 </head>
 <body>
     <div class="container">
-      <div class="row">
-        <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
-          <img src="images/logo.gif" alt="mike logo">
+      <header>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/logo.gif" class="img-responsive" alt="mike logo">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-med-6 col-lg-6 text-right">
+            <h1 class="text-uppercase">Michael Sherwood</h1>
+            <h4>Executive Coder</h4>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-med-6 col-lg-6 text-right">
-          <h1 class="text-uppercase">Michael Sherwood</h1>
-          <h4>Executive Coder</h4>
+      </header>
+      <main>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="images/forest.jpg" alt="forest" class="img-responsive">
+            <h2>Featured Work</h2>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="images/forest.jpg" alt="forest" class="img-responsive">
-          <h2>Featured Work</h2>
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="images/notebook.jpg" class="img-responsive center-block" alt="project1" data-toggle="modal" data-target="#project1">
+            <h4>APPIFY</h4>
+            <a href="http://notebook-mjs.appspot.com/">notebook app</a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="images/notebook.jpg" class="img-responsive center-block" alt="project2" data-toggle="modal" data-target="#project2">
+            <h4>APPIFY</h4>
+            <a href="http://notebook-mjs.appspot.com/">notebook app</a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="images/notebook.jpg" class="img-responsive center-block" alt="project3" data-toggle="modal" data-target="#project3">
+            <h4>APPIFY</h4>
+            <a href="http://notebook-mjs.appspot.com/">notebook app</a>
+          </div>
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="images/notebook.jpg" class="img-responsive center-block" alt="project1" data-toggle="modal" data-target="#project1">
-          <h4>APPIFY</h4>
-          <a href="http://notebook-mjs.appspot.com/">notebook app</a>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="images/notebook.jpg" class="img-responsive center-block" alt="project2" data-toggle="modal" data-target="#project2">
-          <h4>APPIFY</h4>
-          <a href="http://notebook-mjs.appspot.com/">notebook app</a>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="images/notebook.jpg" class="img-responsive center-block" alt="project3" data-toggle="modal" data-target="#project3">
-          <h4>APPIFY</h4>
-          <a href="http://notebook-mjs.appspot.com/">notebook app</a>
-        </div>
-      </div>
+      </main>
       <!-- Modal -->
       <div class="modal fade" id="project1" tabindex="-1" role="dialog"
        aria-labelledby="project1Label" aria-hidden="true">
@@ -104,14 +109,15 @@
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="https://br.linkedin.com/pub/michael-sherwood/19/183/276">Info: Michael Sherwood</a>
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="https://br.linkedin.com/pub/michael-sherwood/19/183/276">Info: Michael Sherwood</a>
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
-
 </body>
 </html>
